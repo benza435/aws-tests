@@ -53,3 +53,9 @@ add this component somewhere in the return statement:
 
 export it all _with authenticator_:  
 `export default withAuthenticator(App);`
+
+### that was good
+
+Locally, the landing page is inaccessible without the user making an account or logging in. beyond that there are no access limitations. The user can sign in and sign out.
+Changes have not persisted to the hosted version yet though...
+Now the hosted version WILL NOT BUILD
