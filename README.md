@@ -36,3 +36,20 @@ https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/
 `amplify add auth`  
 `amplify push --y`  
 wait 10 minutes...
+
+add code near the top of index.js:  
+`import Amplify from 'aws-amplify';`  
+`import config from './aws-exports';`  
+`Amplify.configure(config);`
+
+in app.js, your imports should be:  
+`import React from 'react';`  
+`import logo from './logo.svg';`  
+`import './App.css';`  
+`import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'`
+
+add this component somewhere in the return statement:  
+` <AmplifySignOut />`
+
+export it all _with authenticator_:  
+`export default withAuthenticator(App);`
