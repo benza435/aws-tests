@@ -10,6 +10,11 @@
       "StackName": "amplify-testbackend-staging-144739",
       "StackId": "arn:aws:cloudformation:eu-west-2:615264959371:stack/amplify-testbackend-staging-144739/f9b8ff10-c60c-11eb-a151-0ab9a19518da",
       "AmplifyAppId": "d3c9i3z7u46d9a"
+    },
+    "categories": {
+      "auth": {
+        "testbackend1e768949": {}
+      }
     }
   }
 }

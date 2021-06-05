@@ -29,3 +29,10 @@ I'll summarise what I'm doing for my own sanity and those who can't be arsed wit
 
 Authentication next...
 https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/module-three/
+
+## installing amplify locally
+
+`npm install aws-amplify @aws-amplify/ui-react`  
+`amplify add auth`  
+`amplify push --y`  
+wait 10 minutes...
