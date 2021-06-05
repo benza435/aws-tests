@@ -10,8 +10,8 @@ function App() {
 				<img src={logo} className='App-logo' alt='logo' />
 				<p>TEAM GITSTASH IS AIRBOURNE</p>
 				<h1>We now have Auth!</h1>
+				<AmplifySignOut />
 			</header>
-			<AmplifySignOut />
 		</div>
 	);
 }
