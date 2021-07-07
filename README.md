@@ -5,7 +5,7 @@ I'm following this tutorial:
 
 The app is hosted [here](https://main.d31k6ohzuu4fcv.amplifyapp.com/) and is currently a blank(ish) React project.
 
-I'll summarise what I'm doing for my own sanity and those who can't be arsed with the tutorial:
+I'll summarise what I'm doing for my own sanity and those who can't be bothered with the tutorial:
 
 1. After you build a React app, bang it on Github, head over to the AWS console and find AWS Amplify.
 
